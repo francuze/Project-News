@@ -26,7 +26,7 @@ git clone https://github.com/francuze/Project-News.git
 
 2) Перейти в директорию проекта:
 ```
-cd news-feed
+cd project-news
 ```
 
 3) Установить зависимости:
