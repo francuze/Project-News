@@ -44,6 +44,11 @@ composer install
 php artisan storage:link
 ```
 
+7) Миграция БД
+```
+ php artisan migrate
+```
+
 **Использование**
 
 1) Получить новости из RSS-ленты:
