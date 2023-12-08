@@ -34,19 +34,37 @@ cd project-news
 composer install
 ```
 
-4) Изменить .env под себя
+4) Создать копию файла .env.example и переименовать его в .env:
+```
+cp .env.example .env
+copy .env.example .env
+```
+5) Сгенерировать ключ приложения:
 
-5) Выполнить миграции базы данных:
+```
+php artisan key:generate
+``
+6) Настроить соединение с базой данных в файле .env:
 
-6) Создать символическую ссылку на папку storage:
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+7) Выполнить миграции базы данных:
+
+```
+ php artisan migrate
+```
+
+8) Создать символическую ссылку на папку storage:
 
 ```
 php artisan storage:link
-```
-
-7) Миграция БД
-```
- php artisan migrate
 ```
 
 **Использование**
