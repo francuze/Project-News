@@ -21,7 +21,7 @@ MySQL или другая поддерживаемая база данных
 1) Клонировать репозиторий:
 
 ```
-git clone https://github.com/your-username/news-feed.git
+git clone https://github.com/francuze/news-feed.git
 ```
 
 2) Перейти в директорию проекта:
