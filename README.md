@@ -43,7 +43,7 @@ copy .env.example .env
 
 ```
 php artisan key:generate
-``
+```
 6) Настроить соединение с базой данных в файле .env:
 
 ```
@@ -73,6 +73,7 @@ php artisan storage:link
 ```
 php artisan parse-news --count=10 (count - количество новостей)
 ```
+
 2) Запустить сервер разработки:
 
 ```
