@@ -71,7 +71,7 @@ php artisan storage:link
 
 1) Получить новости из RSS-ленты:
 ```
-php artisan parse-news
+php artisan parse-news --count=10 (count - количество новостей)
 ```
 2) Запустить сервер разработки:
 
